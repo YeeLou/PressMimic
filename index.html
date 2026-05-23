@@ -18,7 +18,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -107,19 +107,9 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="#"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="#"
+                <a href="https://github.com/wjrzm/MotionPRO"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -129,7 +119,7 @@
               </span>
               <!-- Dataset Link. -->
               <span class="link-block">
-                <a href="#"
+                <a href="https://shenqiu.njucite.cn/download"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
@@ -148,8 +138,8 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
+      <video id="teaser" autoplay muted loop playsinline width="100%">
+        <source src="./static/videos/pressmimic.mp4"
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
@@ -216,6 +206,7 @@
           <p>
             MotionPRO is a large-scale dataset capturing synchronized pressure, RGB video, and optical motion capture signals from <strong>70 volunteers</strong> performing <strong>400 motion types</strong>, encompassing <strong>12.4M pose frames</strong> in total. It supports both stages of our pipeline and enables comprehensive evaluation of multimodal human motion understanding.
           </p>
+          <img src="./static/images/motionpro.png" alt="MotionPRO Dataset Overview" style="width: 100%; margin-top: 1rem;">
         </div>
         <!--/ MotionPRO. -->
 
