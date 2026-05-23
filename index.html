@@ -138,10 +138,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline controls width="100%">
-        <source src="./static/videos/pressmimic.mp4"
-                type="video/mp4">
-      </video>
+      <img src="./static/images/teaser.png" alt="PressMimic Teaser" style="width: 100%;">
       <h2 class="subtitle has-text-centered">
         We propose <strong>PressMimic</strong>, a unified framework that incorporates pressure across both motion capture and motion control for humanoid motion imitation. By fusing RGB with pressure in <strong>FRAPPE<sup>++</sup></strong> and supervising robot training with a pressure-guided policy, PressMimic achieves physically grounded pose estimation and stable robot execution.
       </h2>
@@ -170,6 +167,17 @@
       </div>
     </div>
     <!--/ Abstract. -->
+
+    <!-- Demo Video. -->
+    <div class="columns is-centered has-text-centered" style="margin-top: 2rem;">
+      <div class="column is-four-fifths">
+        <video autoplay muted loop playsinline controls width="100%">
+          <source src="./static/videos/pressmimic.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <!--/ Demo Video. -->
+
   </div>
 </section>
 
@@ -201,7 +209,7 @@
         <!--/ PSP. -->
 
         <!-- MotionPRO. -->
-        <h3 class="title is-4">MotionPRO: Large-Scale Multimodal Dataset</h3>
+        <h3 class="title is-4"><a href="https://nju-cite-mocaphumanoid.github.io/MotionPRO/" target="_blank">MotionPRO: Large-Scale Multimodal Human Motion Dataset</a></h3>
         <div class="content has-text-justified">
           <p>
             MotionPRO is a large-scale dataset capturing synchronized pressure, RGB video, and optical motion capture signals from <strong>70 volunteers</strong> performing <strong>400 motion types</strong>, encompassing <strong>12.4M pose frames</strong> in total. It supports both stages of our pipeline and enables comprehensive evaluation of multimodal human motion understanding.
