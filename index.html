@@ -155,7 +155,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Humanoid motion imitation requires not only accurate perception of human kinematics but also faithful reproduction of physical interactions with the environment. However, existing pipelines rely primarily on vision-based motion capture and kinematic imitation, largely ignoring contact dynamics, leading to artifacts such as foot sliding, penetration, and unstable behaviors.
+            Humanoid motion imitation requires not only accurate perception of human kinematics but also faithful reproduction of physical interactions with the environment. However, existing pipelines rely primarily on vision-based motion capture and kinematic imitation, largely ignoring contact dynamics, leading to artifacts such as foot sliding, floor penetration, and unstable behaviors.
           </p>
           <p>
             In this work, we revisit humanoid motion imitation from the perspective of physical grounding and leverage pressure as a unified modality across perception and control. We present <strong>PressMimic</strong>, a framework that integrates pressure into the full pipeline from motion capture to humanoid control. In the perception stage, we introduce <strong>FRAPPE<sup>++</sup></strong>, a multimodal model that fuses RGB and pressure to jointly estimate 3D pose and global motion, where pressure provides explicit contact and support constraints to resolve ambiguity in vision-based estimation. In the control stage, we propose a <strong>pressure-supervised policy (PSP)</strong> that incorporates pressure-derived signals into reinforcement learning, enabling physically consistent contact patterns during execution.
