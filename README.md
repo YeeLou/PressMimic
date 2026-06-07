@@ -1,6 +1,6 @@
 # PressMimic
 
-This is the repository that contains source code for the [PressMimic website](https://yeelou.github.io/pressmimic).
+This is the repository that contains source code for the [PressMimic website](https://yeelou.github.io/PressMimic/).
 
 **PressMimic: Pressure-Guided Motion Capture and Control for Humanoid Robot Imitation**
 
@@ -10,8 +10,8 @@ School of Electronic Science and Engineering, Nanjing University &nbsp;|&nbsp; B
 
 ## Links
 
-- [Project Page](https://yeelou.github.io/pressmimic)
-- [Paper](https://yeelou.github.io/pressmimic/static/pressmimic.pdf)
+- [Project Page](https://yeelou.github.io/PressMimic/)
+- [Paper](https://yeelou.github.io/PressMimic/static/pressmimic.pdf)
 - [Code](https://github.com/wjrzm/MotionPRO)
 - [MotionPRO Dataset](https://shenqiu.njucite.cn/download)
 
