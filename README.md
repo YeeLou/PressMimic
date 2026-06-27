@@ -12,6 +12,7 @@ School of Electronic Science and Engineering, Nanjing University &nbsp;|&nbsp; B
 
 - [Project Page](https://yeelou.github.io/PressMimic/)
 - [Paper](https://yeelou.github.io/PressMimic/static/pressmimic.pdf)
+- [arXiv](https://arxiv.org/abs/2606.26741)
 - [Code](https://github.com/wjrzm/MotionPRO)
 - [MotionPRO Dataset](https://shenqiu.njucite.cn/download)
 
